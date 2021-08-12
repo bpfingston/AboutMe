@@ -8,7 +8,7 @@ let userName = prompt('Hi, what is your name?')
     alert('Hi ' + userName +'! Welcome to my site! Lets play a guessing game! Good luck have fun!')
 
 
-
+function wRaft(){
 let whiteWater = prompt('Have I ever gone White Water Rafting?');
 let lowerWater = whiteWater.toLowerCase();
 
@@ -23,7 +23,11 @@ if (lowerWater === 'yes'){
     // console.log(wut?)
     alert('Youre funny, but lets move on!')
 }
+}
+wRaft();
 
+
+function cNa(){
 let bigNursing = prompt('Have I ever worked in the medical field?');
 let nurse = bigNursing.toLowerCase(); 
 
@@ -38,7 +42,11 @@ if (nurse === 'yes'){
     // console.log(wut?)
     alert('You are a riot, but lets move on!')
 }
+}
+cNa();
 
+
+function pSyche(){
 let psychDegree = prompt('Have I completed my degree in Psychology?');
 let degree = psychDegree.toLowerCase();
 
@@ -53,7 +61,11 @@ if(degree === 'yes'){
     // console.log(wut?)
     alert('Wow, I think you meant something else. Did you know that a Freudian Slip is when you say one thing and mean your mother?')
 }
+}
+pSyche();
 
+
+function jOgger(){
 let jogGing = prompt('Have I ever competed in Triatholon?');
 let jog = jogGing.toLowerCase();
 
@@ -68,7 +80,12 @@ if(jog === 'yes'){
     // console.log(wut?)
     alert('Wow, thats really interesting, but do you know what they call a prank pulled by a coach on his track runner? A running gag.')
 }
+}
+jOgger();
 
+
+
+function cHef(){
 let cooKing = prompt('Am I an experienced Chef?');
 let cook = cooKing.toLowerCase();
 
@@ -83,10 +100,14 @@ if(cook === 'yes'){
     // console.log(wut?)
     alert('Coolio, but did you know that Harry Potter finds it extremely difficult to differentiate between a cooking utensil and his best friend because they are both cauld-ron.')
 }
+}
+cHef();
+
 
 alert('Switching it up, you will have four guesses to come up with a number I am thinking of, between 1 and 100. Good Luck!')
 
 
+function rngMachine(){
 var counter = 0;
 var maxTries = 4;
 var randomNumber = Math.floor(Math.random() * 100 + 1);
@@ -106,7 +127,12 @@ while (guess !== randomNumber){
         alert('Too low, please try again!')
     }
 }
+}
+rngMachine();
 
+
+
+function fOods(){
 var favoriteFood = ['sushi', 'poke', 'cookies', 'pie', 'bagels', 'turkey leg', 'apples']
 var num = 0;
 var corrAns = false;
@@ -126,6 +152,8 @@ while(num < 7 && corrAns !== true){
         alert('oh so close, please try again!')
     }
 }
+}
+fOods();
 
 
 alert('That was fun, ' + userName + '! You got ' + finalCount + ' out of 7 answers correct, good job!')
